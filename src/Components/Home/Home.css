@@ -1,0 +1,175 @@
+.home-container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+  }
+
+  .home-contents{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .home-section{
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+  }
+
+  .home-section h1{
+    display: flex;
+    font-size: 2.5rem;
+  }
+
+  .home-section h1 span{
+    font-size: 2.5rem;
+    color: rgb(251 64 108/1);
+  }
+  
+  .home-section .tag-name {
+    margin: 10px 0;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgb(82, 82, 82);
+  }
+  
+  .home-section .enroll-tag{
+    font-weight: 400;
+    margin: 40px 0 15px 0;
+    color: rgb(68, 68, 68);
+  }
+
+  .home-section button{
+    padding: 10px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    color:white;
+    background-color: rgb(251 64 108/1);
+    transition: 0.3s all;
+  }
+
+  .home-section button:hover{
+    background-color: rgb(251, 26, 79);
+  }
+
+  .img-section{
+    width: 100%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-section img{
+    width: 60%;
+    border-radius: 10px;
+  }
+ 
+
+  @media (max-width:1025px){
+    .home-section h1,.home-section h1 span{
+      font-size: 1.7rem;
+    }
+
+    .home-section .tag-name {
+      font-size: 1.2rem;
+    }
+
+    .home-section{
+      padding: 30px;
+    }
+
+    .img-section img{
+      width: 85%;
+      border-radius: 10px;
+    }
+  }
+
+@media (max-width:769px){
+
+  .home-contents{
+    flex-wrap: wrap-reverse;
+  }
+
+  .home-section h1,.home-section h1 span{
+    font-size: 2rem;
+  }
+
+  .img-section{
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .img-section img{
+    width: 60%;
+    border-radius: 10px;
+  }
+  
+}
+
+  @media (max-width:430px){
+    .home-section h1,.home-section p ,.home-section h1 span{
+      font-size: 1.2rem;
+    }
+
+    .home-section .tag-name {
+      font-size: 0.9rem;
+    }
+
+    .home-section .enroll-tag{
+      font-size: 0.7rem;
+      margin: 10px 0;
+    }
+
+    .img-section {
+      padding: 2px;
+    }
+
+    .home-section{
+      padding: 15px;
+    }
+
+    .home-section button{
+      font-size: 0.8rem;
+      padding: 5px;
+      border-radius:5px;
+    }
+    .img-section img{
+      width: 80%;
+      border-radius: 10px;
+    }
+  }
+
+  @media (max-width:321px){
+
+    .home-section{
+      padding: 10px;
+    }
+    .home-section h1,.home-section p ,.home-section h1 span{
+      font-size: 1rem;
+    }
+
+    .home-section .tag-name {
+      font-size: 0.7rem;
+    }
+
+    .img-section {
+      padding: 0px;
+    }
+  }
+
+
+  @media (max-width:316px){
+    .home-section{
+      padding: 6px;
+    }
+    .home-section h1,.home-section p ,.home-section h1 span{
+      font-size: 0.9rem;
+    }
+  }
